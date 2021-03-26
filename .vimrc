@@ -1,5 +1,6 @@
 "Color Scheme
 colorscheme codedark
+
 "Add Line Number
 set number
 
@@ -37,3 +38,31 @@ set splitbelow
 " Open the existing NERDTree on each new tab.
 autocmd BufWinEnter * silent NERDTreeMirror
 
+"Plugins
+call plug#begin()
+Plug 'mattn/emmet-vim'
+Plug 'tpope/vim-sensible'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }     " Install fuzzy finder binaryPlug 'junegunn/fzf.vim'  
+Plug 'editorconfig/editorconfig-vim' 
+Plug 'neoclide/coc.nvim', {'branch': 'release'} " Intelisense
+Plug 'dart-lang/dart-vim-plugin' "dart snippets
+Plug 'natebosch/vim-lsc'
+Plug 'natebosch/vim-lsc-dart'
+call plug#end()
+
+let g:lsc_auto_map = v:true
+
+"Emmet Key
+let g:user_emmet_leader_key=','
+
+
+"Coc Extensions
+let g:coc_global_extensions = [
+    \ 'coc-tsserver',
+    \ 'coc-json',
+    \ 'coc-html',
+    \ 'coc-css',
+    \ 'coc-phpls',
+    \ 'coc-python',
+	\ 'coc-diagnostic'
+    \]
