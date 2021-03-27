@@ -18,3 +18,4 @@ iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
 ```
 
 - Run `:PlugInstall` in vim to install all the Plugins
+- Change username in .vimrc for prettier to work
