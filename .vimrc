@@ -38,7 +38,7 @@ set splitbelow
 " Open the existing NERDTree on each new tab.
 autocmd BufWinEnter * silent NERDTreeMirror
 
-"Plugins
+"Plugins --vim-plug
 call plug#begin()
 Plug 'mattn/emmet-vim'
 Plug 'tpope/vim-sensible'
@@ -48,12 +48,17 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'} " Intelisense
 Plug 'dart-lang/dart-vim-plugin' "dart snippets
 Plug 'natebosch/vim-lsc'
 Plug 'natebosch/vim-lsc-dart'
+Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
+Plug 'prettier/vim-prettier', { 'do': 'npm install' }
+Plug 'itmammoth/doorboy.vim'
 call plug#end()
 
-let g:lsc_auto_map = v:true
 
 "Emmet Key
 let g:user_emmet_leader_key=','
+
+"Set Prettier Path
+let g:prettier#exec_cmd_path = "/home/sarosx/node_modules/.bin/prettier"
 
 
 "Coc Extensions
@@ -66,3 +71,5 @@ let g:coc_global_extensions = [
     \ 'coc-python',
 	\ 'coc-diagnostic'
     \]
+
+let g:auto_save = 1  " enable AutoSave on Vim startup
