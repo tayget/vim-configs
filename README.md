@@ -24,6 +24,10 @@ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 ```sh
 sudo apt-get install -y nodejs
 ```
+#### Install Prettier
+```sh
+npm install -g prettier
+```
 
 - Run `:PlugInstall` in vim to install all the Plugins
 - Change username in .vimrc for prettier to work
