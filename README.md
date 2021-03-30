@@ -28,6 +28,14 @@ sudo apt-get install -y nodejs
 ```sh
 npm install -g prettier
 ```
+### Fix Bracely
+```sh
+cd ~/.vim/plugged/bracey.vim
+```
+
+```sh
+npm install --prefix server
+```
 
 - Run `:PlugInstall` in vim to install all the Plugins
 - Change username in .vimrc for prettier to work
