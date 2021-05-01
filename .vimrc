@@ -1,5 +1,16 @@
 "Color Scheme
-colorscheme codedark
+
+"Vscode Theme
+"colorscheme codedark
+
+"Gruvbox Themme
+"colorscheme gruvbox
+"set background=dark
+
+"Dracula Theme
+colorscheme dracula
+
+
 
 "Add Line Number
 set number
