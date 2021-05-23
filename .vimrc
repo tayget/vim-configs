@@ -8,7 +8,7 @@
 "set background=dark
 
 "Dracula Theme
-colorscheme dracula
+"colorscheme dracula
 
 
 
@@ -84,3 +84,5 @@ let g:coc_global_extensions = [
     \]
 
 let g:auto_save = 1  " enable AutoSave on Vim startup
+
+set cursorline
