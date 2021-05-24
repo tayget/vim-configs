@@ -4,13 +4,13 @@
 "colorscheme codedark
 
 "Gruvbox Themme
-"colorscheme gruvbox
-"set background=dark
+colorscheme gruvbox
+set background=dark
 
 "Dracula Theme
 "colorscheme dracula
 
-
+autocmd VimEnter * hi Normal ctermbg=none
 
 "Add Line Number
 set number
@@ -69,7 +69,7 @@ call plug#end()
 let g:user_emmet_leader_key=','
 
 "Set Prettier Path
-let g:prettier#exec_cmd_path = "/home/sarosx/node_modules/.bin/prettier"
+"let g:prettier#exec_cmd_path = "/home/sarosx/node_modules/.bin/prettier"
 
 
 "Coc Extensions
@@ -80,7 +80,7 @@ let g:coc_global_extensions = [
     \ 'coc-css',
     \ 'coc-phpls',
     \ 'coc-python',
-	\ 'coc-diagnostic'
+    \ 'coc-diagnostic'
     \]
 
 let g:auto_save = 1  " enable AutoSave on Vim startup
