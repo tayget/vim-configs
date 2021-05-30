@@ -26,12 +26,12 @@ sudo apt-get install -y nodejs
 ```
 
 #### Install ccls for cpp
-#####Debian
+####Debian
 ```sh
-sudo dnf install ccls
+sudo apt install ccls
 
 ```
-#####Arch
+####Arch
 ```sh
 sudo pacman -S ccls
 ```
