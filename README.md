@@ -24,6 +24,18 @@ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 ```sh
 sudo apt-get install -y nodejs
 ```
+
+#### Install ccls for cpp
+#####Debian
+```sh
+sudo dnf install ccls
+
+```
+#####Arch
+```sh
+sudo pacman -S ccls
+```
+
 #### Install Prettier
 ```sh
 npm install -g prettier
