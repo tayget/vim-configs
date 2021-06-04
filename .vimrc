@@ -63,6 +63,7 @@ Plug 'natebosch/vim-lsc-dart'
 Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
 Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 Plug 'itmammoth/doorboy.vim'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 call plug#end()
 
 
