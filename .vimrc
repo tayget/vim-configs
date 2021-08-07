@@ -57,13 +57,11 @@ Plug 'tpope/vim-sensible'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }     " Install fuzzy finder binaryPlug 'junegunn/fzf.vim'  
 Plug 'editorconfig/editorconfig-vim' 
 Plug 'neoclide/coc.nvim', {'branch': 'release'} " Intelisense
-Plug 'dart-lang/dart-vim-plugin' "dart snippets
-Plug 'natebosch/vim-lsc'
-Plug 'natebosch/vim-lsc-dart'
 Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
 Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 Plug 'itmammoth/doorboy.vim'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'tomlion/vim-solidity'
 call plug#end()
 
 
