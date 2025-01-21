@@ -1,13 +1,8 @@
 {
-    "languageserver": {
-        "ccls": {
-            "command": "ccls",
-            "trace.server": "verbose",
-            "initializationOptions": {
-                "cacheDirectory": "/tmp/ccls"
-            },
-            "filetypes": ["c", "cpp", "objc", "objcpp"]
-        }
-    }
+  "suggest.autoTrigger": "always",
+  "suggest.noselect": false,
+  "suggest.acceptSuggestionOnCommitCharacter": true,
+  "suggest.acceptSuggestionOnEnter": "always",
+  "suggest.acceptSuggestionOnTab": true
 }
 
