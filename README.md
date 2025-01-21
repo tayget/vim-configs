@@ -1,5 +1,3 @@
-Thank you for providing the repository link! Based on the details of the repository, here’s the updated `README.md` for your repository that includes the correct GitHub URL, installation instructions, key shortcuts, and feature explanations.
-
 ---
 
 # Vim Configuration Setup with Features
@@ -127,5 +125,3 @@ If you ever wish to remove the Vim setup:
 This Vim configuration is free to use and modify. Feel free to contribute or customize it further!
 
 ---
-
-This `README.md` now links directly to your GitHub repository, providing clear instructions on installation, key features, and usage. It also includes information for uninstallation and further customization.
